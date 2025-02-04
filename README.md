@@ -1,2 +1,2 @@
 # codingame
-CondinGame solutions in Kotlin (mainly)
+CodinGame solutions in Kotlin (mainly)
