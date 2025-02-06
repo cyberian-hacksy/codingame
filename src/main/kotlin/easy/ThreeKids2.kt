@@ -1,3 +1,5 @@
+package easy
+
 fun main() {
     val limit = 100
     for (x in 1 until limit) {

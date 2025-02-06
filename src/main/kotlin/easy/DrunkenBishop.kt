@@ -1,3 +1,7 @@
+package easy
+
+//https://www.codingame.com/training/easy/ascii-art-the-drunken-bishop-algorithm
+
 fun main(args: Array<String>) {
     val fingerprint = "fc:94:b0:c1:e5:b0:98:7c:58:43:99:76:97:ee:9f:b7"
     print(drunkenBishop(fingerprint))
@@ -44,6 +48,6 @@ fun drunkenBishop(fingerprint: String): String {
             }
             append("|\n")
         }
-        append("+-----------------+\n")
+        append("+-----------------+")
     }
 }

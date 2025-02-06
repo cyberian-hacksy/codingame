@@ -1,3 +1,7 @@
+package easy
+
+//https://www.codingame.com/training/easy/triangle-toggle
+
 fun main() {
     val hi = 12
     val wi = 14

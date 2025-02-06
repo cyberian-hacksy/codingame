@@ -1,3 +1,7 @@
+package easy
+
+//https://www.codingame.com/training/easy/encryptiondecryption-of-enigma-machine
+
 fun caesarShift(message: String, startShift: Int, isEncoding: Boolean): String {
     return message.mapIndexed { index, c ->
         val shift = if (isEncoding) startShift + index else -startShift - index

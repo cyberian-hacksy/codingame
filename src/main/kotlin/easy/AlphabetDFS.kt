@@ -1,3 +1,7 @@
+package easy
+
+//https://www.codingame.com/training/easy/abcdefghijklmnopqrstuvwxyz
+
 fun main() {
     val n = 10
     val grid = """qadnhwbnyw
